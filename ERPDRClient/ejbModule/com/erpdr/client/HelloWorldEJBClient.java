@@ -12,7 +12,7 @@ import com.erpdr.bussinesslogic.ejb.HelloWorldEJBRemote;
 import com.erpdr.client.ClientUtility;
 
 public class HelloWorldEJBClient {
-	private static final String LOOKUP_STRING = "java:global/ERPDREAR/ERPDR/HelloWorldEJB!com.erpdr.bussinessLogic.ejb.HelloWorldEJBRemote";
+	private static final String LOOKUP_STRING = "java:global/ERPDREAR/ERPDR/HelloWorldEJB!com.erpdr.bussinesslogic.ejb.HelloWorldEJBRemote";
 	private static HelloWorldEJBRemote bean;
 	private static Context context = null;
 
