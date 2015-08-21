@@ -3,6 +3,8 @@
 	<name>ERPDR</name>
 	<comment></comment>
 	<projects>
+		<project>ERPDRObj</project>
+		<project>ERPDRClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
