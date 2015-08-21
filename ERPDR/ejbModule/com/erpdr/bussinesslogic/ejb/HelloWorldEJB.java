@@ -15,4 +15,13 @@ public class HelloWorldEJB implements HelloWorldEJBRemote {
         // TODO Auto-generated constructor stub
     }
 
+	@Override
+	public String SayHello(String Message) {
+		// TODO Auto-generated method stub
+		String _return;
+		//System.out.println(Message);
+		_return=Message + " From EJB";
+		return _return;
+	}
+
 }

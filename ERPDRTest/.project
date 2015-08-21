@@ -3,6 +3,9 @@
 	<name>ERPDRTest</name>
 	<comment></comment>
 	<projects>
+		<project>ERPDR</project>
+		<project>ERPDRClient</project>
+		<project>ERPDRObj</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
