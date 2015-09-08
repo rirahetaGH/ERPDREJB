@@ -2,8 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ERPDR"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GlassFishLibrary"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PostGresLib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ERPDRClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ERPDRObj"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

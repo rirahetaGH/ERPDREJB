@@ -25,7 +25,7 @@ import com.sun.rowset.CachedRowSetImpl;
 
 public class CommonDAO {
 	public Connection conn;
-	private static final String DB_JDBC = "jdbc/sifcoDBJDBC";
+	private static final String DB_JDBC = "jdbc/erpdrJDBC";
 	private static final String CALLABLETYPE = "CALLABLE";
 	private static final String PREPAREDTYPE = "PREPARED";
 	private static Context context = null;
