@@ -21,8 +21,9 @@ public class HelloWorldTest {
 		 * System.out.println(lstPeriods);
 		 */
 		try {
-			HelloWorldTest.class.getMethod(args[0], null).invoke(null, null);
+			HelloWorldTest.class.getMethod(v_method, null).invoke(null, null);
 			// testPeriods();
+			//SayHello();
 
 		} catch (IllegalAccessException e) {
 			// TODO Auto-generated catch block
@@ -41,10 +42,10 @@ public class HelloWorldTest {
 			e.printStackTrace();
 		}
 	}
-	public void SayHello(){
+	public static void SayHello(){
 		
 		try {
-			HelloWorldEJBService.SayHello("primer ejb");
+			System.out.println(HelloWorldEJBService.SayHello("primer ejb"));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
